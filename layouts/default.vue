@@ -1,8 +1,6 @@
 <template>
 <div>
-  <div class="header">
-    <OrganismsHeader/>
-  </div>
+  <LayoutsHeader/>
   <main>
     <slot/>
   </main>
@@ -10,13 +8,10 @@
 </template>
 
 <style scoped lang="scss">
-.header,main{
-  max-width: 1024px;
-  width: 1024px;
+main{
   margin: auto;
 }
 main{
-  margin-top: 40px;
-}
-  
+    margin-top: 40px;
+  }
 </style>

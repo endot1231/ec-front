@@ -1,6 +1,6 @@
 <template>
-<div class="side-bar">
-
+<div class="item-image">
+  <img src/>
 </div>
 </template>
 

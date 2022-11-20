@@ -1,10 +1,10 @@
 <template>
   <div class="index-page">
     <div class="sidebar-wrap">
-      <OrganismsSidebar/>
+      <LayoutsSidebar/>
     </div>
     <div class="item-list-wrap">
-      <OrganismsItemList/>
+      <PagesIndexItemList/>
     </div>
   </div>
 </template>
@@ -14,11 +14,14 @@
   display: flex;
 }
 .sidebar-wrap{
-  width: 190px;
+  width: 230px;
+  padding: 10px;
 }
 
 .item-list-wrap{
-  width: 834px;
+  margin-left: 20px;
+  max-width: 1200px;
+  flex: 1;
 }
 </style>
 
