@@ -12,9 +12,18 @@
   </div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .item{
     max-width: 1024px;
     margin: auto;
+    display: flex;
+    &-image-wrap{
+      width: 400px;
+    }
+    &-image-description{
+      flex: 1;
+      margin-left: 40px;
+    }
 }
+
 </style>
