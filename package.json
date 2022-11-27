@@ -11,5 +11,8 @@
     "nuxt": "3.0.0-rc.12",
     "sass": "^1.56.1",
     "sass-loader": "^13.1.0"
+  },
+  "dependencies": {
+    "vue3-carousel": "0.2.4"
   }
 }
