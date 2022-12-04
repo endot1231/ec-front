@@ -1,6 +1,19 @@
 <script setup lang="ts">
-import { Ref } from "vue";
+import { Ref, defineProps } from "vue";
 
+const props = defineProps({
+  starWidth: {
+    type: Number,
+    default: 16
+  },
+  starHeight: {
+    type: Number,
+    default: 16
+  }
+})
+
+const width = ref(props.starWidth)
+const height = ref(props.starHeight)
 const PartsIconsStarFilled = resolveComponent("PartsIconsStarFilled")
 const PartsIconsStarHalf = resolveComponent('PartsIconsStarHalf')
 const PartsIconsStarEmpty = resolveComponent('PartsIconsStarEmpty')
@@ -50,7 +63,7 @@ setValue(stars,"ONE_HALF")
 
 <template>
   <div class="star-review">
-    <component v-for="(start,i) in stars" :key="i" :is="getComponet(start)"></component>
+    <component v-for="(star,i) in stars" :key="i" :is="getComponet(star)" :width="width" :height="height"></component>
   </div>
 </template>
 
