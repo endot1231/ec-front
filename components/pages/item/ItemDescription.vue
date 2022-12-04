@@ -4,7 +4,7 @@
   <h1 class="item-name">商品名商品名商品名商品名商品名商品名</h1>
   <div class="item-review">
     <UiStarReview />
-    <nuxt-link to="/item/1" class="item-review-link">4.0</nuxt-link>
+    <nuxt-link to="/item/1/review" class="item-review-link">4.0</nuxt-link>
   </div>
   <div class="item-detail">
     テストテストテストテストテストテストテストテストテストテストテストテスト

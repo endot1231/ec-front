@@ -20,7 +20,7 @@ const clickItem = (item_id: number) => {
       <div class="item-review">
         <UiStarReview />
         <object>
-          <nuxt-link to="/item/1" class="item-review-link">4.0</nuxt-link>
+          <nuxt-link to="/item/1/review" class="item-review-link">4.0</nuxt-link>
         </object>
       </div>
       <p class="item-price">\ 4,000</p>
