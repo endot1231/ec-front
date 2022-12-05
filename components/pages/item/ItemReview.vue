@@ -8,7 +8,7 @@
       <div class="item-text">
         <h1 class="item-name">サンプルサンプルサンプル</h1>
         <p class="item-price">\4,0000</p>
-        <nuxt-link class="shop-name" to="shop/1"><img src="~/assets/image/icon/shop.svg" />ショップ名</nuxt-link>
+        <nuxt-link class="shop-name" to="/shop/1"><img src="~/assets/image/icon/shop.svg" />ショップ名</nuxt-link>
       </div>
     </div>
     

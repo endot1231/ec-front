@@ -1,6 +1,6 @@
 <template>
 <div class="item-description">
-  <nuxt-link to="shop/1" class="shop-name"><img src="~/assets/image/icon/shop.svg"/>テストショップ名</nuxt-link>
+  <nuxt-link to="/shop/1" class="shop-name"><img src="~/assets/image/icon/shop.svg"/>テストショップ名</nuxt-link>
   <h1 class="item-name">商品名商品名商品名商品名商品名商品名</h1>
   <div class="item-review">
     <UiStarReview />
